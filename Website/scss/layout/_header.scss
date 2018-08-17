@@ -1,0 +1,67 @@
+.red-block {
+	height: 8px;
+	background-color: $red;
+}
+
+.contact {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.header-content {
+	height: 137px;
+	display: flex;
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+
+	.header-logo {
+		margin: auto 0;
+		width: 30%;
+		h1 {
+			text-size: $text-very-big;
+			font-style: $text-cursive;
+			font-weight: $text-thin;
+			line-height: $text-height;
+		}	
+	}
+
+	.header-nav {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+
+		ul {
+			display: flex;
+			list-style-type: none;
+		}
+
+		li {
+			border-right: 1px solid $gray;
+			padding: 0 20px;
+		}
+
+		.pl {
+			padding-left: 0px;
+		}
+
+		.pr {
+			padding-right: 0px;
+		}
+
+		.br {
+			border: none;
+		}
+
+		a {
+			text-decoration: none;
+			color: $gray;
+			text-transform: uppercase;
+
+			&:hover {
+				color: $red;
+				transition: 1s ease all;
+			}
+		}
+	}
+}

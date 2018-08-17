@@ -1,0 +1,60 @@
+.services {
+	margin: 40px 0px;
+}
+
+.row {
+	display: flex;
+	justify-content: space-around;
+}
+
+.col {
+	width: 30%;
+	height: 430px;
+
+	.photo {
+		height: 280px;
+		background: $gray-2;
+		color: $white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		h1 {
+			font-size: $text-medium;
+
+			&:hover {
+				opacity: .5;
+				transition: 1s ease all;
+				cursor: pointer;
+			}
+		}
+	}
+
+	.description {
+		background: $gray-3;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		padding-left: 15px;
+		padding-right: 30px;
+
+		h2 {
+			margin-top: 0px;
+			font-size: $text-big;
+			font-style: $text-cursive;
+
+			&:hover {
+				color: $red;
+				cursor: pointer;
+				transition: 0.5s ease all;
+			}
+		}
+
+		p {
+			color: $gray-1;
+		}
+	}	
+}
+
+.col-2 {
+	margin: 0px 30px;
+}

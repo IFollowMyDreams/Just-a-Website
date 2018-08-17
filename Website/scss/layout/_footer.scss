@@ -1,0 +1,101 @@
+.footer {
+	color: $gray-10;
+	padding-bottom: 40px;
+	margin-top: 35px;
+	background-color: $gray-2;
+
+	h3 {
+		font-size: $text-very-small;
+		text-transform: uppercase;
+		color: #fff;
+
+		&:hover {
+			opacity: .7;
+			transition: 1s ease all;
+			cursor: pointer;
+		}
+	}
+}
+
+.row-2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.col-3 {
+	width: 20%;
+
+}
+
+.quick-link {
+
+	a {
+		display: block;
+		text-decoration: none;
+		color: $gray;
+		border-bottom: 1px solid $gray-7;
+		padding: 7px 0px;
+
+		&:hover {
+			color: $white;
+			opacity: .7;
+			transition: 1s ease all;
+		}
+	}
+}
+
+.red {
+	text-align: right;
+	color: $red;
+
+	&:hover {
+		opacity: .7;
+		transition: 1s ease all;
+		cursor: pointer;
+	}
+}
+
+.latest-tweets {
+
+	span {
+		color: $red;
+
+		&:hover {
+		opacity: .7;
+		transition: 1s ease all;
+		cursor: pointer;
+		}	
+	}
+}
+
+.input-2  {
+	color: $white;
+	background-color: $gray-8;
+	padding: 0 8px;
+	height: 30px;
+	border-radius: 6px;
+	margin-bottom: 10px;
+	border: none;
+	box-shadow: -2px -2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.in-3 {
+	height: 80px;
+}
+
+.contact-us {
+	.btn-1 {
+		display: inline-block;
+		text-decoration: none;
+		color: $red;
+		text-transform: uppercase;
+		border-radius: 6px;
+		padding: 8px 18px;
+		box-shadow: -2px -2px 5px 0px rgba(0,0,0,0.75);
+
+		&:hover {
+		opacity: .7;
+		} 
+	}
+}
+

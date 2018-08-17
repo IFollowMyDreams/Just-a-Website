@@ -1,0 +1,23 @@
+.subscribe-content {
+	background: $gray-3;
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	display: flex;
+	height: 110px;
+	align-items: center;
+	justify-content: center;
+}
+
+.subscribe-text {
+	margin-right: 100px;
+
+	h1 {
+		text-align: center;
+		text-transform: uppercase;
+		font-size: $text-very-big;
+		font-style: $text-cursive;
+		font-weight: $text-thin;
+		line-height: $text-height;
+	}
+}
+

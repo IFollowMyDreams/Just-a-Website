@@ -1,0 +1,70 @@
+.latest {
+	margin-top: 40px;
+}
+
+.row-1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.latest-text {
+	
+	h2 {
+		font-style: $text-cursive;
+	}
+
+	p {
+		color: $gray-1;
+	}
+}
+
+.col-1 {
+	width: 30%;
+
+	.photo-1 {
+		
+   
+            box-shadow: 0 13px 6px -6px #777;
+
+
+		width: 225px;
+		height: 140px;
+		background: $gray-2;
+		color: $white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		h1 {
+			font-size: $text-medium;
+
+			&:hover {
+				opacity: .5;
+				transition: 1s ease all;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+.description-1 {
+	
+	.para {
+		color: $red;
+
+		&:hover {
+			opacity: .7;
+			transition: 1s ease all;
+			cursor: pointer;
+		}
+	}
+}
+
+.col-1-2 {
+	margin: 0 20px;
+}
+
+.col-1-3 {
+	margin-right: 20px;
+}
+

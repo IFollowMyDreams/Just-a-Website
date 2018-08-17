@@ -1,0 +1,32 @@
+// Fonts
+$font-family: 'Georgia', sans-serif;
+
+// Size
+$font-size-very-small: 12px;
+$font-size-small: 13px;
+$font-size-big: 20px;
+$font-size-big-medium: 22.56px;
+$font-size-very-big: 36px;
+
+// Style
+$font-style: italic;
+
+// Weight
+$font-weight: 500;
+
+// Line Height
+$line-height: 0.5;
+
+// Text
+$text: $font-family;
+$text-big: $font-size-big;
+$text-medium: $font-size-big-medium;
+$text-very-big: $font-size-very-big;
+$text-small: $font-size-small;
+$text-cursive: $font-style;
+$text-thin: $font-weight;
+$text-height: $line-height;
+$text-very-small: $font-size-very-small;
+
+
+

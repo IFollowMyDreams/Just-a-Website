@@ -1,0 +1,27 @@
+.input-1 {
+	width: 280px;
+	height: 30px;	
+	color: $gray-6;
+	background-color: $gray-5;
+	border: 1px solid $gray-4;
+	border-radius: 6px;
+	padding: 0 10px;
+	box-shadow: inset 0 0 10px #DBDBDB;
+}
+
+
+a.btn {
+	margin-left: 15px;
+	display: inline-block;
+	text-decoration: none;
+	border: 1px solid $gray-4;
+	color: $red;
+	text-transform: uppercase;
+	border-radius: 6px;
+	padding: 8px 18px;
+	box-shadow: inset 0 0 10px #DBDBDB;
+
+	&:hover {
+		opacity: .7;
+	} 
+}
